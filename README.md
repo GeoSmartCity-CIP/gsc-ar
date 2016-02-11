@@ -1,5 +1,4 @@
-# gsc-ar
-Augmented Reality Support
+#Augmented Reality Support
 
 ## Current state
 At the moment there isn't an ARML server providing data required data. 
