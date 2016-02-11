@@ -8,7 +8,7 @@ Instead data are available through the means of "traditional" technologies, such
 ## Solution
 The main idea is to convert existing data into ARML. As the data is provided by WFS, in form of an XML document, XSLT is the best technology to perform desired transformation.
 
-[Geoserver][geoserver.org], used as a primary platform to provide geospatial data, includes required functionality. 
+[Geoserver](geoserver.org), used as a primary platform to provide geospatial data, includes required functionality. 
 Its [XSLT WFS output format module](http://docs.geoserver.org/stable/en/user/extensions/xslt/index.html) can be used for this purpose. Generally it enables to define an XSLT style sheet to transform data outputed by WFS into desired form.
 
 If source data is providing by a WFS which doesn't support XSLT post-processing, another Geoserver's functionality can help. 
