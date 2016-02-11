@@ -15,4 +15,10 @@ If source data is providing by a WFS which doesn't support XSLT post-processing,
 There's an extension, called [External Web Feature Server](http://docs.geoserver.org/stable/en/user/data/cascaded/wfs.html).
 It forwards incoming request to an external server and performs required data transformation supported by Geoserver.
 
+## Source Code
+The source code contains configuration file and XSLT style sheet, as required by XSLT module of Geoserver.
 
+Note that the stylesheet isn't a general one transforming any incoming data into ARML.
+Instead, specific style sheet must be defined for each type of input data to reflect its structure.
+
+Current version of the style sheet is just an example of trivial data containg only an idefication and a geometry.
