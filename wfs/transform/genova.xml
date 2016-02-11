@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<transform>
+  <sourceFormat>text/xml; subtype=gml/2.1.2</sourceFormat>
+  <outputFormat>arml</outputFormat>
+  <outputMimeType>text/xml; subtype=arml/2.0</outputMimeType>
+  <fileExtension>xml</fileExtension>
+  <xslt>genova.xslt</xslt>
+</transform>
