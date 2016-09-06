@@ -4,8 +4,8 @@
   <outputFormat>arml</outputFormat>
   <outputMimeType>text/xml; subtype=arml/2.0</outputMimeType>
   <fileExtension>xml</fileExtension>
-  <xslt>genova.xslt</xslt>
+  <xslt>milady_horakove_node.xslt</xslt>
   <featureType>
-    <id>genova:raquote_polyline</id>
+    <id>mh:vodovod_node</id>
   </featureType>
 </transform>
