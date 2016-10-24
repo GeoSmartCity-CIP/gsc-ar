@@ -19,9 +19,6 @@ Current version of the style sheet is just an example of trivial data containg o
 ### Work remaining
 Alter existing XSLT documents for particular data sources.
 
-### Current issues
-WFS services are not available or access is limited, but at the moment it does not prevent further development, as test data is available.
-
 ### Details
 The main idea is to convert existing data into ARML. As the data is provided by WFS, in form of an XML document, XSLT is the best technology to perform desired transformation.
 
