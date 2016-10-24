@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<transform>
+  <sourceFormat>text/xml; subtype=gml/2.1.2</sourceFormat>
+  <outputFormat>arml</outputFormat>
+  <outputMimeType>text/xml; subtype=arml/2.0</outputMimeType>
+  <fileExtension>xml</fileExtension>
+  <xslt>genova_water.xslt</xslt>
+  <featureType>
+    <id>mh:gsc-us-net-wa-ext_P07_GSC_Water_4258_flat</id>
+  </featureType>
+</transform>
