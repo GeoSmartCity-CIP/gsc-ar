@@ -7,17 +7,10 @@ Instead data are available through the means of "traditional" technologies, such
 
 Augmented reality support service provides *transformation* of WFS-based data to ARML. 
 
-### Work done
-XSLT transformation document and corresponding Geoserver configuration was created as a proof-of-concept. 
-They can be found in source code.
-
 Note that the stylesheet isn't a general one transforming any incoming data into ARML.
 Instead, specific style sheet must be defined for each type of input data to reflect its structure.
 
-Current version of the style sheet is just an example of trivial data containg only an idefication and a geometry.
-
-### Work remaining
-Alter existing XSLT documents for particular data sources.
+Current version of the style sheet is just an example of trivial data containg only an idenfication and a geometry.
 
 ### Details
 The main idea is to convert existing data into ARML. As the data is provided by WFS, in form of an XML document, XSLT is the best technology to perform desired transformation.
